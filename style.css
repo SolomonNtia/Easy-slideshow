@@ -1,0 +1,20 @@
+#con{
+   width: 500px;
+   height: 500px;
+   align-item: center;
+   border: thick Solid black;
+   animation-name: slides;
+   animation-duration: 5s;
+   animation-iterationcount: infinite;
+}
+
+@keyframes slides{
+  0%{
+     opacity: 0;
+     transform: translateX(-100%);
+    }
+  100%{
+    opacity: 1;
+     transform: translateX(0);
+     }
+}
